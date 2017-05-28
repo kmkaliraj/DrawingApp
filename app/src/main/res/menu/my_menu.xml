@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/color"
+        android:title="Color"
+        app:showAsAction="always" >
+        <menu>
+            <group android:checkableBehavior="single">
+            <item android:id="@+id/red"
+                android:title="@string/red"/>
+            <item
+                android:id="@+id/blue"
+                android:title="@string/blue" />
+            <item
+                android:id="@+id/green"
+                android:title="@string/green"/>
+            <item
+                android:id="@+id/black"
+                android:title="@string/black" />
+            </group>
+        </menu>
+        </item>
+    <item
+        android:id="@+id/mode"
+        android:title="Mode"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item android:id="@+id/insert"
+                android:title="@string/menu1_insert"/>
+            <item
+                android:id="@+id/move"
+                android:title="@string/menu3_move" />
+            <item
+                android:id="@+id/delete"
+                android:title="@string/menu2_delete" />
+            </group>
+        </menu>
+        </item>
+</menu>

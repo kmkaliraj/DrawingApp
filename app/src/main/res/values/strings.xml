@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Drawing App</string>
+    <string name="menu1_insert">Insert</string>
+    <string name="menu2_delete">Delete</string>
+    <string name="menu3_move">Move</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="black">Black</string>
+</resources>
